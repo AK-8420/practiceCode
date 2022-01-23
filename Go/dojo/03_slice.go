@@ -21,4 +21,8 @@ func PrintSlice() {
 	*/
 	s3 = append(s3, []int{7, 8, 9}...)
 	fmt.Println(s3, "cap->", cap(s3)) // -> 12
+
+	// capを指定する
+	s4 := s3[:4:4]                    // 1～4番目の要素をcap=4でスライス
+	fmt.Println(s4, "cap->", cap(s4)) // -> 4
 }
