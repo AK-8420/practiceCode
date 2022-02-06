@@ -30,5 +30,7 @@ func main() {
 	//dojo.Routine1()
 	//dojo.Routine2()
 	//dojo.Channel1()
-	dojo.Select()
+	//dojo.Select()
+	//dojo.ReceiveCh()
+	dojo.ForSelect()
 }
