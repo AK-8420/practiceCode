@@ -32,5 +32,9 @@ func main() {
 	//dojo.Channel1()
 	//dojo.Select()
 	//dojo.ReceiveCh()
-	dojo.ForSelect()
+	//dojo.ForSelect()
+	//dojo.Mutex()
+	//dojo.RWMutex()
+	//dojo.WaitRoutine()
+	dojo.TypingGame()
 }
