@@ -36,5 +36,6 @@ func main() {
 	//dojo.Mutex()
 	//dojo.RWMutex()
 	//dojo.WaitRoutine()
-	dojo.TypingGame()
+	//dojo.TypingGame()
+	dojo.DevideLoop()
 }
